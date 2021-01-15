@@ -18,7 +18,19 @@
 
 
 
- ##### 配置登录信息
+### 三、测试
+
+
+npm run test
+
+
+### 四、回复设置
+
+目前采用关键词检索回复的方式，配置文件在`./src/json/keywords.json` 中  
+未来会更换获取答案的方式
+
+
+### 五、配置登录信息
 
 
 1. 复制 ./src/config/person.config.js.bak 并命名为 person.config.js
@@ -29,9 +41,3 @@
 6. 在network中点击新的 send 发送请求
 7. 在 Headers 中奖 Request Headers 中的 cookie 拷贝到 `./src/config/person.config.js` 的 cookie 中
 8. 将最下面的数据 From Data 中的 roomid 和 csrf 字段内容拷贝到 `./src/config/person.config.js` 同字段
-
-
-### 三、回复设置
-
-目前采用关键词检索回复的方式，配置文件在`./src/json/keywords.json` 中  
-未来会更换获取答案的方式

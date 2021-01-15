@@ -1,4 +1,4 @@
-var checkWords = require("../src/libs/checkWords.js");
+var checkWords = require("../../src/libs/checkWords.js");
 var assert  = require("assert");
 
 var keyword = "";
