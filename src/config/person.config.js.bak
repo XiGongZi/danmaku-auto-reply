@@ -1,0 +1,19 @@
+/**
+ * 操作：
+ *  0. 复制本文件并命名为 person.config.js
+ *  1. 登录bilibili
+ *  2. 打开相应直播间
+ *  3. 按f12打开开发者工具，点击network
+ *  4. 发送任意内容弹幕
+ *  5. 在network中点击新的 send 发送请求
+ *  6. 在 Headers 中奖 Request Headers 中的 cookie 拷贝到下文的 cookie 中
+ *  7. 将最下面的数据 From Data 中的 roomid 和 csrf 字段内容拷贝到下文同字段
+ *  8. 结束
+ */
+
+
+module.exports = {
+  roomid: "",
+  csrf: "",
+  cookie: ""
+}

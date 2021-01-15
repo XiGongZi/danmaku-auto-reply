@@ -1,0 +1,1 @@
+const checkWord = require("./unit/checkWord");
