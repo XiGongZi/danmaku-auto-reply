@@ -11,9 +11,9 @@
 ### 二、使用
 
 1. git clone https://github.com/XiGongZi/danmaku-auto-recall.git
-2. npm install
+2. npm run install
 3. 配置登录信息（见下文）
-4. npm dev
+4. npm run dev
 5. 将./runInBro.js 代码粘贴到目标直播间console
 
 
