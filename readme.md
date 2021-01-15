@@ -10,7 +10,7 @@
 
 ### 二、使用
 
-1. git clone https://github.com/XiGongZi/danmaku-auto-recall.git
+1. git clone https://github.com/XiGongZi/danmaku-auto-reply.git
 2. npm run install
 3. 配置登录信息（见下文）
 4. npm run dev
